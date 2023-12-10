@@ -1,0 +1,104 @@
+.purple-section {
+    background-color:purple; /* Código hexadecimal para el color morado */
+    color: #050000; /* Color del texto dentro de la sección */
+    border-radius: 0%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilo para contenedores de imagen y texto */
+  .content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-container {
+    margin-right: 25px; /* Ajusta el espacio entre la imagen y el texto según sea necesario */
+  }
+  
+  .image-container img {
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+  }
+  
+  .text-container {
+    text-align: left; /* Alinea el texto a la izquierda */
+  }
+.Instalar{
+    background-color:#ddd;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#botonMovil {
+  display: none; /* Por defecto, ocultar el botón para dispositivos móviles */
+}
+
+#imagenDesktop {
+  display: none; /* Por defecto, ocultar la imagen para escritorio */
+}
+
+/* Estilo para la tarjeta */
+.tarjeta {
+  display: flex; /* Establecer como contenedor flexible */
+  align-items: center; /* Centrar verticalmente los elementos hijos */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centrar verticalmente el contenido */
+}
+
+/* Estilo para los iconos dentro de la tarjeta */
+.tarjeta i {
+  font-size: 2em;
+  margin-right: 10px; /* Espacio entre el icono y el contenido */
+}
+
+/* Estilo para el contenido dentro de la tarjeta */
+.tarjeta .contenido {
+  flex: 1; /* El contenido ocupa el espacio restante */
+}
+
+/* Otros estilos según sea necesario */
+.container-fluid{
+  background-color: #ddd;
+}
+.text-container{
+  background-color: #ddd;
+  display: flex; /* Establecer como contenedor flexible */
+  align-items: center; /* Centrar verticalmente los elementos hijos */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centrar verticalmente el contenido */
+}
+
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 200%;
+  margin: auto; /* Esto centrará la tarjeta */
+  display: flex; /* Esto permite centrar verticalmente */
+  flex-direction: column; /* Asegura que los elementos estén apilados verticalmente */
+}
+/* Puedes agregar estilos adicionales según tus necesidades */
